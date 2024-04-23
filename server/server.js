@@ -30,7 +30,7 @@ app.post("/tts", async (req, res) => {
     res.json(response.data)
 })
 
-const port = 5000
+const port = 5002
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`)
 })
